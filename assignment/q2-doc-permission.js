@@ -112,4 +112,4 @@ d2.process(); // "Allowed"
 
 // Scenario 4: (READER AND WANT TO READ = ALLOWED)
 const d3 = new Document(Permission.RolesConst.READER, Permission.OperationsConst.READ, "Hello content")
-d3.process(); // "Blocked"
+d3.process(); // "Allowed"
